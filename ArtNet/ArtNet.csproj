@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Title>AerNet</Title>
+    <Authors>Palink</Authors>
+    <Description>.Net下使用AerNet协议</Description>
+    <Copyright>Copyright2022</Copyright>
+    <PackageIcon>profile.jpg</PackageIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Enums\" />
+    <Folder Include="Packets\" />
+    <Folder Include="Sockets\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\..\Palink.Tools\Palink.Tools.Core\profile.jpg">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
